@@ -2,13 +2,12 @@ from gpiozero import LED, Button
 from signal import pause
 from time import sleep
 
-#declaro que led usar y su respectivo color
+#establezco el led y el color
 led_verde = LED(13)
 led_rojo = LED(19)
 led_azul = LED(26)
 
-#declaro un bucle while true que enciende los leds un tiempo determinado
-#y los apaga
+#establezo un bucle que prende los leds y los apaga despues de un tiempo determinado 
 while True:
 	led_rojo.on()
 	sleep(1)
