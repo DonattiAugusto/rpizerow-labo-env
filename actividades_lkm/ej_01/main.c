@@ -7,6 +7,7 @@
 */
 static int __init ej01_module_init(void) {
 	// Completar
+	printk("donatti_augusto_ej01:hola desde el kernel");
 
 	// Salio todo bien
 	return 0;
@@ -17,6 +18,7 @@ static int __init ej01_module_init(void) {
 */
 static void __exit ej01_module_exit(void) {
 	// Completar
+	printk("donatti_augusto_ej01:chau desde el kernel");
 
 }
 
